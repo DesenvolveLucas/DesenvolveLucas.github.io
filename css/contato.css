@@ -1,0 +1,97 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 150px;
+}
+
+.footer-subtitulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.footer-contatos {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.email {
+  font-size: 1.4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+.footer-email {
+  margin-top: 30px;
+}
+
+.celular {
+  font-size: 1.4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+.footer-celular {
+  margin-top: 30px;
+}
+
+.subtitulo-Email {
+  color: #ccf235;
+  font-size: 1.8rem;
+}
+
+.subtitulo-Celular {
+  color: #ccf235;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 700px) {
+  .subtitulo-Celular {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .subtitulo-Email {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .footer-email {
+    font-size: 20px;
+  }
+
+  .footer-celular {
+    font-size: 20px;
+  }
+
+  .footer-subtitulo {
+    font-size: 30px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .footer-contatos {
+    gap: 30px;
+  }
+}
