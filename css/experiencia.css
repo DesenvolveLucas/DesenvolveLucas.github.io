@@ -68,12 +68,8 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffffff;
-  padding: 5px 10px;
-}
-
-.empresa-habilidade li:hover {
   background: linear-gradient(#ccf235, #70da1c);
+  padding: 5px 10px;
 }
 
 @media (max-width: 800px) {
